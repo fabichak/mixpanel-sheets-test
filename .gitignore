@@ -16,9 +16,6 @@ token.json
 !tsconfig.json
 
 # TypeScript build output
-dist/
-*.js
-*.js.map
 !demo-send-event.js
 !send-events.js
 !mixpanel-client.js
