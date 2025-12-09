@@ -1,0 +1,45 @@
+{
+    "eventType": "shop",
+    "timestamp": "0",
+    "playerId": "Player",
+    "runSeed": 0,
+    "currentFloorIndex": 0,
+    "randomEventIds": [1, 2],
+	"playerChoice": 2,
+    "playerState": {
+        "heroes": [
+            {
+                "heroId": "hero_01",
+                "rank": 1,
+                "specialization": "HeroSpecialization_101",
+                "classes": [
+                    "HeroClass_1"
+                ],
+                "items": [
+                    "Item_101"
+                ]
+            },
+			{
+                "heroId": "hero_02",
+                "rank": 2,
+                "specialization": "HeroSpecialization_102",
+                "classes": [
+                    "HeroClass_2"
+                ],
+                "items": [
+                    "Item_102"
+                ]
+            }
+        ],
+        "Items": [
+            "Item_102",
+            "Item_103"
+        ],
+        "Relics": [
+            "Relic_101"
+        ],
+        "playerCurrency": 100,
+		"enemy_id": 1,
+        "lives": 1
+    }
+}

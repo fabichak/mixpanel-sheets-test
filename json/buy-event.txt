@@ -1,0 +1,86 @@
+{
+    "eventType": "shop",
+    "timestamp": "0",
+    "playerId": "Player",
+    "runSeed": 0,
+    "currentFloorIndex": 0,
+    "shopState": {
+        "heroes": [
+            {
+                "heroId": "hero_01",
+                "rank": 1,
+                "specialization": "HeroSpecialization_101",
+                "classes": [
+                    "HeroClass_1"
+                ]
+            },
+            {
+                "heroId": "hero_02",
+                "rank": 1,
+                "specialization": "HeroSpecialization_102",
+                "classes": [
+                    "HeroClass_2"
+                ]
+            },
+            {
+                "heroId": "hero_03",
+                "rank": 1,
+                "specialization": "HeroSpecialization_103",
+                "classes": [
+                    "HeroClass_3"
+                ]
+            }
+        ],
+        "items": [
+            "Item_101",
+            "Item_102",
+            "Item_103"
+        ],
+        "relics": [
+            "Relic_101",
+            "Relic_102",
+            "Relic_103"
+        ],
+        "sale": [
+            {
+                "type": "hero",
+                "id": "hero_01",
+                "value": 0.25
+            },
+            {
+                "type": "item",
+                "id": "Item_101",
+                "value": 0.5
+            },
+            {
+                "type": "relic",
+                "id": "Relic_103",
+                "value": 0.25
+            }
+        ],
+        "rerolls": 2
+    },
+    "playerState": {
+        "heroes": [
+            {
+                "heroId": "hero_01",
+                "rank": 1,
+                "specialization": "HeroSpecialization_101",
+                "classes": [
+                    "HeroClass_1"
+                ],
+                "items": [
+                    "Item_101"
+                ]
+            }
+        ],
+        "Items": [
+            "Item_102"
+        ],
+        "Relics": [
+            "Relic_101"
+        ],
+        "playerCurrency": 100,
+        "lives": 1
+    }
+}

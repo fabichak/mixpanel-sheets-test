@@ -1,0 +1,29 @@
+{
+  "name": "mixpanel-analytics",
+  "version": "1.0.0",
+  "description": "Node.js project to send analytics to Mixpanel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "sheets-to-mixpanel": "node dist/sheets-to-mixpanel-oauth.js",
+    "json-to-sheets": "node dist/json-to-sheets-oauth.js"
+  },
+  "keywords": [
+    "mixpanel",
+    "analytics"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "googleapis": "^167.0.0",
+    "mixpanel": "^0.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "arg": "^5.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

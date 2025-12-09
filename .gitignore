@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Google Authentication (Service Account and OAuth2)
+*-key.json
+credentials.json
+token.json
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# TypeScript build output
+dist/
+*.js
+*.js.map
+!demo-send-event.js
+!send-events.js
+!mixpanel-client.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Serena
+.serena/
