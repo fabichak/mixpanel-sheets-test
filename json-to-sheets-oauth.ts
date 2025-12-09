@@ -5,7 +5,7 @@ import * as readline from 'readline';
 
 // OAuth2 credentials file (download from Google Cloud Console)
 const CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
-const TOKEN_PATH = path.join(__dirname, 'token.json');
+const TOKEN_PATH = path.join(__dirname, 'token-write.json');
 
 // Type definitions
 interface FlattenedData {

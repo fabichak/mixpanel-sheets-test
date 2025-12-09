@@ -5,7 +5,7 @@ import * as readline from 'readline';
 
 // OAuth2 credentials file (same as json-to-sheets-oauth.ts)
 const CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
-const TOKEN_PATH = path.join(__dirname, 'token.json');
+const TOKEN_PATH = path.join(__dirname, 'token-readonly.json');
 
 // Mixpanel client (we'll use require since it's a CommonJS module)
 const Mixpanel = require('mixpanel');
